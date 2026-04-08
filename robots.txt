@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maierphips94-code.github.io/ai-teaching/sitemap.xml
