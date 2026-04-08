@@ -21,120 +21,256 @@
 
 <!-- ═══ Schema.org JSON-LD ══════════════════════════════════════════════════ -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": ["LocalBusiness", "EducationalOrganization"],
-      "@id": "https://www.ai-teaching-academy.com/#organization",
-      "name": "AI Teaching Academy",
-      "legalName": "Roth AI-Teaching Academy",
-      "description": "Die AI Teaching Academy bietet Generative Engine Optimization (GEO) für Unternehmen in München an. GEO optimiert Ihre Unternehmensinformationen für KI-Assistenten wie ChatGPT, Perplexity, Google Gemini und Claude, damit Ihr Unternehmen bei relevanten Anfragen direkt empfohlen wird.",
-      "url": "https://www.ai-teaching-academy.com",
-      "telephone": "+4917647319710",
-      "email": "roth@ai-teaching-academy.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.ai-teaching-academy.com/assets/logo.jpg.webp",
-        "width": 400,
-        "height": 80
+[
+  {
+    "@type": [
+      "LocalBusiness",
+      "EducationalOrganization"
+    ],
+    "@id": "https://www.ai-teaching-academy.com/#organization",
+    "name": "AI Teaching Academy",
+    "legalName": "Roth AI-Teaching Academy",
+    "description": "Die AI Teaching Academy bietet Generative Engine Optimization (GEO) für Unternehmen in München an. GEO optimiert Ihre Unternehmensinformationen für KI-Assistenten wie ChatGPT, Perplexity, Google Gemini und Claude, damit Ihr Unternehmen bei relevanten Anfragen direkt empfohlen wird.",
+    "url": "https://www.ai-teaching-academy.com",
+    "telephone": "+4917647319710",
+    "email": "roth@ai-teaching-academy.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.ai-teaching-academy.com/assets/logo.jpg.webp",
+      "width": 400,
+      "height": 80
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://www.ai-teaching-academy.com/assets/gianluca.png",
+      "width": 600,
+      "height": 600
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Steinsdorfstraße 18",
+      "addressLocality": "München",
+      "postalCode": "80538",
+      "addressRegion": "Bayern",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "48.1351",
+      "longitude": "11.5820"
+    },
+    "priceRange": "€€",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "knowsAbout": [
+      "Generative Engine Optimization",
+      "GEO",
+      "KI-Marketing",
+      "Schema.org",
+      "ChatGPT Sichtbarkeit",
+      "Perplexity Optimierung",
+      "Google Gemini Sichtbarkeit"
+    ],
+    "founder": {
+      "@id": "https://www.ai-teaching-academy.com/#gianluca-roth"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/giliana-roth-043835335",
+      "https://www.instagram.com/espanol_con_gilivanilli",
+      "https://www.tiktok.com/@espanol_con_gilivanilli"
+    ],
+    "@context": "https://schema.org"
+  },
+  {
+    "@type": "Person",
+    "@id": "https://www.ai-teaching-academy.com/#gianluca-roth",
+    "name": "Gianluca Dennis Roth",
+    "jobTitle": "GEO-Experte & IHK-Referent",
+    "description": "Gianluca Dennis Roth ist Gründer der AI Teaching Academy in München und spezialisiert auf Generative Engine Optimization (GEO). Als IHK-Referent und Partner der Initiative Pack ma's digital berät er Münchner Unternehmen dabei, in KI-Assistenten wie ChatGPT, Perplexity, Google Gemini und Claude sichtbar zu werden. Er verbindet kaufmännische Praxis, Wirtschaftsstudium und KI-Expertise.",
+    "email": "roth@ai-teaching-academy.com",
+    "telephone": "+4917647319710",
+    "image": "https://www.ai-teaching-academy.com/assets/gianluca.png",
+    "knowsAbout": [
+      "GEO",
+      "Generative Engine Optimization",
+      "KI-Assistenten",
+      "ChatGPT",
+      "Schema.org",
+      "IHK-Weiterbildung",
+      "KI-Marketing München"
+    ],
+    "worksFor": {
+      "@id": "https://www.ai-teaching-academy.com/#organization"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/giliana-roth-043835335"
+    ],
+    "@context": "https://schema.org"
+  },
+  {
+    "@type": "Service",
+    "@id": "https://www.ai-teaching-academy.com/#service-starter",
+    "name": "GEO Starter Guide",
+    "description": "Kostenloser Einstieg in Generative Engine Optimization: Schritt-für-Schritt-Anleitung zur GEO-Optimierung Ihrer Website für ChatGPT, Perplexity und Google Gemini. Inklusive Checkliste und Sofortmaßnahmen.",
+    "provider": {
+      "@id": "https://www.ai-teaching-academy.com/#organization"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "München"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    },
+    "@context": "https://schema.org"
+  },
+  {
+    "@type": "Service",
+    "@id": "https://www.ai-teaching-academy.com/#service-screening",
+    "name": "GEO Website-Screening",
+    "description": "Professionelle GEO-Analyse Ihrer Website nach 20+ Kriterien: Bewertung der Sichtbarkeit in 5 KI-Systemen, detaillierter PDF-Report mit 25–30 Seiten und konkreten Handlungsempfehlungen zur GEO-Optimierung.",
+    "provider": {
+      "@id": "https://www.ai-teaching-academy.com/#organization"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "München"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    },
+    "@context": "https://schema.org"
+  },
+  {
+    "@type": "Service",
+    "@id": "https://www.ai-teaching-academy.com/#service-komplett",
+    "name": "GEO Komplett-Optimierung",
+    "description": "Vollständige Generative Engine Optimization über drei Monate: Schema.org Markup-Implementierung, Content-Optimierung für 10+ Kernseiten, monatliches Reporting und Erfolgsmessung der KI-Sichtbarkeit in ChatGPT, Perplexity, Google Gemini und Claude.",
+    "provider": {
+      "@id": "https://www.ai-teaching-academy.com/#organization"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "München"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    },
+    "@context": "https://schema.org"
+  },
+  {
+    "@type": "FAQPage",
+    "@id": "https://www.ai-teaching-academy.com/#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Was ist GEO (Generative Engine Optimization)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GEO (Generative Engine Optimization) ist die gezielte Optimierung von Unternehmensinhalten und Daten für generative KI-Systeme wie ChatGPT, Perplexity, Google Gemini und Anthropic Claude. Im Gegensatz zu klassischem SEO, das auf Suchmaschinen-Rankings zielt, sorgt GEO dafür, dass KI-Assistenten Ihr Unternehmen bei relevanten Nutzeranfragen korrekt verstehen, einordnen und aktiv empfehlen. Technisch basiert GEO auf strukturierten Daten nach Schema.org-Standard, klar definierten Entitäten und zitierfähigen Inhalten, die von KI-Modellen als vertrauenswürdig eingestuft werden."
+        }
       },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://www.ai-teaching-academy.com/assets/gianluca.png",
-        "width": 600,
-        "height": 600
+      {
+        "@type": "Question",
+        "name": "Wie unterscheidet sich GEO von SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO (Search Engine Optimization) optimiert Webseiten für klassische Suchmaschinen wie Google, die Nutzern eine Liste mit Links anzeigen. GEO (Generative Engine Optimization) optimiert Inhalte für KI-Assistenten wie ChatGPT oder Perplexity, die direkte, synthetisierte Antworten liefern – ohne Link-Listen. Während SEO auf Keywords, Backlinks und technische Onpage-Faktoren setzt, nutzt GEO strukturierte Daten (Schema.org), klar definierte Entitäten und zitierfähige Inhalte. Beide Disziplinen ergänzen sich und sind im KI-Zeitalter gemeinsam entscheidend für digitale Sichtbarkeit."
+        }
       },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Steinsdorfstraße 18",
-        "addressLocality": "München",
-        "postalCode": "80538",
-        "addressRegion": "Bayern",
-        "addressCountry": "DE"
+      {
+        "@type": "Question",
+        "name": "Warum ist GEO wichtig für mein Unternehmen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Laut einer aktuellen Studie von SparkToro (2024) nutzen bereits 40 Prozent der Internetnutzer KI-Assistenten für Produktrecherchen und Kaufentscheidungen – ohne klassische Suchmaschinen zu verwenden. KI-Assistenten wie ChatGPT, Perplexity und Google Gemini liefern dabei direkte Empfehlungen: Wenn Ihr Unternehmen dort nicht erscheint, werden Wettbewerber bevorzugt genannt. Unternehmen, die GEO jetzt umsetzen, sichern sich einen First-Mover-Vorteil und etablieren sich als Autorität in KI-Systemen – bevor der Wettbewerb aufholt."
+        }
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": "48.1351", "longitude": "11.5820" },
-      "priceRange": "€€",
-      "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" }],
-      "knowsAbout": ["Generative Engine Optimization", "GEO", "KI-Marketing", "Schema.org", "ChatGPT Sichtbarkeit", "Perplexity Optimierung", "Google Gemini Sichtbarkeit"],
-      "founder": { "@id": "https://www.ai-teaching-academy.com/#gianluca-roth" },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "5",
-        "bestRating": "5",
-        "worstRating": "1"
+      {
+        "@type": "Question",
+        "name": "Welche KI-Systeme werden durch GEO optimiert?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GEO-Optimierung durch die AI Teaching Academy verbessert Ihre Sichtbarkeit gleichzeitig in allen großen generativen KI-Plattformen: OpenAI ChatGPT, Anthropic Claude, Google Gemini, Perplexity AI sowie Microsoft Copilot. Da alle diese Systeme auf ähnlichen Prinzipien – strukturierte Daten, Entitätserkennung, zitierfähige Inhalte – basieren, profitieren Sie mit einer einzigen GEO-Investition von plattformübergreifender Sichtbarkeit in fünf oder mehr KI-Systemen gleichzeitig."
+        }
       },
-      "sameAs": [
-        "https://www.linkedin.com/in/giliana-roth-043835335",
-        "https://www.instagram.com/espanol_con_gilivanilli",
-        "https://www.tiktok.com/@espanol_con_gilivanilli"
-      ]
-    },
-    {
-      "@type": "Person",
-      "@id": "https://www.ai-teaching-academy.com/#gianluca-roth",
-      "name": "Gianluca Dennis Roth",
-      "jobTitle": "GEO-Experte & IHK-Referent",
-      "description": "Gianluca Dennis Roth ist Gründer der AI Teaching Academy in München und spezialisiert auf Generative Engine Optimization (GEO). Als IHK-Referent und Partner der Initiative Pack ma's digital berät er Münchner Unternehmen dabei, in KI-Assistenten wie ChatGPT, Perplexity, Google Gemini und Claude sichtbar zu werden. Er verbindet kaufmännische Praxis, Wirtschaftsstudium und KI-Expertise.",
-      "email": "roth@ai-teaching-academy.com",
-      "telephone": "+4917647319710",
-      "image": "https://www.ai-teaching-academy.com/assets/gianluca.png",
-      "knowsAbout": ["GEO", "Generative Engine Optimization", "KI-Assistenten", "ChatGPT", "Schema.org", "IHK-Weiterbildung", "KI-Marketing München"],
-      "worksFor": { "@id": "https://www.ai-teaching-academy.com/#organization" },
-      "sameAs": ["https://www.linkedin.com/in/giliana-roth-043835335"]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.ai-teaching-academy.com/#service-starter",
-      "name": "GEO Starter Guide",
-      "description": "Kostenloser Einstieg in Generative Engine Optimization: Schritt-für-Schritt-Anleitung zur GEO-Optimierung Ihrer Website für ChatGPT, Perplexity und Google Gemini. Inklusive Checkliste und Sofortmaßnahmen.",
-      "provider": { "@id": "https://www.ai-teaching-academy.com/#organization" },
-      "areaServed": { "@type": "City", "name": "München" },
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.ai-teaching-academy.com/#service-screening",
-      "name": "GEO Website-Screening",
-      "description": "Professionelle GEO-Analyse Ihrer Website nach 20+ Kriterien: Bewertung der Sichtbarkeit in 5 KI-Systemen, detaillierter PDF-Report mit 25–30 Seiten und konkreten Handlungsempfehlungen zur GEO-Optimierung.",
-      "provider": { "@id": "https://www.ai-teaching-academy.com/#organization" },
-      "areaServed": { "@type": "City", "name": "München" },
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.ai-teaching-academy.com/#service-komplett",
-      "name": "GEO Komplett-Optimierung",
-      "description": "Vollständige Generative Engine Optimization über drei Monate: Schema.org Markup-Implementierung, Content-Optimierung für 10+ Kernseiten, monatliches Reporting und Erfolgsmessung der KI-Sichtbarkeit in ChatGPT, Perplexity, Google Gemini und Claude.",
-      "provider": { "@id": "https://www.ai-teaching-academy.com/#organization" },
-      "areaServed": { "@type": "City", "name": "München" },
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.ai-teaching-academy.com/#faq",
-      "mainEntity": [
-        { "@type": "Question", "name": "Was ist GEO (Generative Engine Optimization)?", "acceptedAnswer": { "@type": "Answer", "text": "GEO (Generative Engine Optimization) ist die gezielte Optimierung von Unternehmensinhalten und Daten für generative KI-Systeme wie ChatGPT, Perplexity, Google Gemini und Anthropic Claude. Im Gegensatz zu klassischem SEO, das auf Suchmaschinen-Rankings zielt, sorgt GEO dafür, dass KI-Assistenten Ihr Unternehmen bei relevanten Nutzeranfragen korrekt verstehen, einordnen und aktiv empfehlen. Technisch basiert GEO auf strukturierten Daten nach Schema.org-Standard, klar definierten Entitäten und zitierfähigen Inhalten, die von KI-Modellen als vertrauenswürdig eingestuft werden." } },
-        { "@type": "Question", "name": "Wie unterscheidet sich GEO von SEO?", "acceptedAnswer": { "@type": "Answer", "text": "SEO (Search Engine Optimization) optimiert Webseiten für klassische Suchmaschinen wie Google, die Nutzern eine Liste mit Links anzeigen. GEO (Generative Engine Optimization) optimiert Inhalte für KI-Assistenten wie ChatGPT oder Perplexity, die direkte, synthetisierte Antworten liefern – ohne Link-Listen. Während SEO auf Keywords, Backlinks und technische Onpage-Faktoren setzt, nutzt GEO strukturierte Daten (Schema.org), klar definierte Entitäten und zitierfähige Inhalte. Beide Disziplinen ergänzen sich und sind im KI-Zeitalter gemeinsam entscheidend für digitale Sichtbarkeit." } },
-        { "@type": "Question", "name": "Warum ist GEO wichtig für mein Unternehmen?", "acceptedAnswer": { "@type": "Answer", "text": "Laut einer aktuellen Studie von SparkToro (2024) nutzen bereits 40 Prozent der Internetnutzer KI-Assistenten für Produktrecherchen und Kaufentscheidungen – ohne klassische Suchmaschinen zu verwenden. KI-Assistenten wie ChatGPT, Perplexity und Google Gemini liefern dabei direkte Empfehlungen: Wenn Ihr Unternehmen dort nicht erscheint, werden Wettbewerber bevorzugt genannt. Unternehmen, die GEO jetzt umsetzen, sichern sich einen First-Mover-Vorteil und etablieren sich als Autorität in KI-Systemen – bevor der Wettbewerb aufholt." } },
-        { "@type": "Question", "name": "Welche KI-Systeme werden durch GEO optimiert?", "acceptedAnswer": { "@type": "Answer", "text": "GEO-Optimierung durch die AI Teaching Academy verbessert Ihre Sichtbarkeit gleichzeitig in allen großen generativen KI-Plattformen: OpenAI ChatGPT, Anthropic Claude, Google Gemini, Perplexity AI sowie Microsoft Copilot. Da alle diese Systeme auf ähnlichen Prinzipien – strukturierte Daten, Entitätserkennung, zitierfähige Inhalte – basieren, profitieren Sie mit einer einzigen GEO-Investition von plattformübergreifender Sichtbarkeit in fünf oder mehr KI-Systemen gleichzeitig." } },
-        { "@type": "Question", "name": "Wie lange dauert es, bis GEO-Optimierung Wirkung zeigt?", "acceptedAnswer": { "@type": "Answer", "text": "GEO zeigt in der Regel schnellere Ergebnisse als klassisches SEO. Strukturierte Daten und Schema.org Markup können innerhalb von zwei bis vier Wochen von KI-Systemen erfasst und verarbeitet werden. Erste messbare Verbesserungen der Erwähnungsrate in KI-Assistenten sind erfahrungsgemäß nach vier bis acht Wochen feststellbar. Für nachhaltige und stabile Ergebnisse empfiehlt die AI Teaching Academy eine Begleitoptimierung über mindestens drei Monate mit monatlichem Reporting." } },
-        { "@type": "Question", "name": "Benötige ich technische Kenntnisse für GEO?", "acceptedAnswer": { "@type": "Answer", "text": "Grundlegende GEO-Maßnahmen wie das Strukturieren von Inhalten mit W-Fragen oder das Einpflegen von Unternehmensinformationen können ohne technische Vorkenntnisse umgesetzt werden. Für vollständige GEO-Optimierung – insbesondere Schema.org Markup, strukturierte Daten und technische Implementierung – ist spezialisiertes Fachwissen notwendig. Genau hier unterstützt die AI Teaching Academy: vom kostenlosen GEO Starter Guide für den Einstieg bis zur vollständigen technischen Komplett-Optimierung über drei Monate." } }
-      ]
-    },
-    {
-      "@type": "HowTo",
-      "name": "Wie funktioniert GEO-Optimierung in 4 Schritten?",
-      "step": [
-        { "@type": "HowToStep", "position": 1, "name": "GEO-Analyse Ihrer Website", "text": "Analyse nach 20+ Kriterien, Bewertung der Auffindbarkeit in 5 KI-Systemen. Sie erhalten einen detaillierten PDF-Report mit konkreten Handlungsempfehlungen." },
-        { "@type": "HowToStep", "position": 2, "name": "Schema.org Markup implementieren", "text": "Implementierung strukturierter Daten (Schema.org) damit KI-Systeme Ihr Unternehmen korrekt als Entität einordnen und bei relevanten Anfragen empfehlen." },
-        { "@type": "HowToStep", "position": 3, "name": "Content für KI optimieren", "text": "Überarbeitung Ihrer Inhalte mit W-Fragen-Struktur, zitierfähigen Statistiken und Entitäts-Definitionen für 10 oder mehr Kernseiten Ihrer Website." },
-        { "@type": "HowToStep", "position": 4, "name": "Erfolgsmessung & Reporting", "text": "Monatliches Reporting über drei Monate: Messung der Erwähnungsrate in 5 KI-Systemen und kontinuierliche Nachoptimierung für nachhaltige Ergebnisse." }
-      ]
-    }
-  ]
-}
+      {
+        "@type": "Question",
+        "name": "Wie lange dauert es, bis GEO-Optimierung Wirkung zeigt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GEO zeigt in der Regel schnellere Ergebnisse als klassisches SEO. Strukturierte Daten und Schema.org Markup können innerhalb von zwei bis vier Wochen von KI-Systemen erfasst und verarbeitet werden. Erste messbare Verbesserungen der Erwähnungsrate in KI-Assistenten sind erfahrungsgemäß nach vier bis acht Wochen feststellbar. Für nachhaltige und stabile Ergebnisse empfiehlt die AI Teaching Academy eine Begleitoptimierung über mindestens drei Monate mit monatlichem Reporting."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Benötige ich technische Kenntnisse für GEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grundlegende GEO-Maßnahmen wie das Strukturieren von Inhalten mit W-Fragen oder das Einpflegen von Unternehmensinformationen können ohne technische Vorkenntnisse umgesetzt werden. Für vollständige GEO-Optimierung – insbesondere Schema.org Markup, strukturierte Daten und technische Implementierung – ist spezialisiertes Fachwissen notwendig. Genau hier unterstützt die AI Teaching Academy: vom kostenlosen GEO Starter Guide für den Einstieg bis zur vollständigen technischen Komplett-Optimierung über drei Monate."
+        }
+      }
+    ],
+    "@context": "https://schema.org"
+  },
+  {
+    "@type": "HowTo",
+    "name": "Wie funktioniert GEO-Optimierung in 4 Schritten?",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "GEO-Analyse Ihrer Website",
+        "text": "Analyse nach 20+ Kriterien, Bewertung der Auffindbarkeit in 5 KI-Systemen. Sie erhalten einen detaillierten PDF-Report mit konkreten Handlungsempfehlungen."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Schema.org Markup implementieren",
+        "text": "Implementierung strukturierter Daten (Schema.org) damit KI-Systeme Ihr Unternehmen korrekt als Entität einordnen und bei relevanten Anfragen empfehlen."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Content für KI optimieren",
+        "text": "Überarbeitung Ihrer Inhalte mit W-Fragen-Struktur, zitierfähigen Statistiken und Entitäts-Definitionen für 10 oder mehr Kernseiten Ihrer Website."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Erfolgsmessung & Reporting",
+        "text": "Monatliches Reporting über drei Monate: Messung der Erwähnungsrate in 5 KI-Systemen und kontinuierliche Nachoptimierung für nachhaltige Ergebnisse."
+      }
+    ],
+    "@context": "https://schema.org"
+  }
+]
 </script>
 
 <!-- ═══ Fonts & Scripts ══════════════════════════════════════════════════════ -->
